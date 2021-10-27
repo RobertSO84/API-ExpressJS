@@ -1,5 +1,4 @@
-const express = require("express");
-
+const express = require('express');
 
 const router = express.Router();
 
@@ -11,8 +10,9 @@ router.get('/', (req, res) => {
       offset
     });
   } else {
-    res.send('No hay parámteros');
+    res.send('No hay parametros');
   }
 });
+
 
 module.exports = router;
